@@ -26,10 +26,14 @@ ol {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 /* header */
 
     .container {
-    width: 1440px;
+width: 1158px;
         padding-left: 15px; 
         padding-right: 15px;
         margin: 0 auto;
@@ -42,7 +46,8 @@ ol {
 .header { 
     padding-top: 24px;
     padding-bottom: 24px;
-   display: block;
+    border-bottom: 1px solid #e7e9fc
+   
 }
 .header-container {
 display: flex;
@@ -54,6 +59,7 @@ justify-content: space-between;
 .header-navigation { 
     gap: 76px;
     display: flex;
+    align-items: center;
 
 }
 
@@ -66,6 +72,7 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
      color: #4d5ae5;
+    margin-right: 76px;
     
  
 }
@@ -82,7 +89,10 @@ font-weight: 700;
 
 .header-list {
     display: flex;
-    gap: 24px;
+    gap: 40x;
+    margin-right: 0;
+    margin-right: 40px;
+gap: 40px;
 }
 
 
@@ -96,6 +106,8 @@ font-weight: 700;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        padding: 24px 0 24px;
       
         
 }
@@ -137,6 +149,7 @@ font-weight: 700;
 
 .hero {
     background: #2e2f42;
+    padding: 188px 0;
 }
 
 
