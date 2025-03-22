@@ -88,8 +88,7 @@ font-weight: 700;
 }
 
 .header-list {
-    display: flex;
-    gap: 40x;
+    display: flex;;
     margin-right: 0;
     margin-right: 40px;
 gap: 40px;
@@ -97,7 +96,8 @@ gap: 40px;
 
 
 .header-list-item { 
-     
+gap: 40px;
+
 }
 
 .header-items {
@@ -174,10 +174,11 @@ gap: 40px;
         color: #fff;
         cursor: pointer;
         background: #4d5ae5;
-       display: inline-block;
-        width: 169px;
+       display: block;
+        min-width: 169px;
         height: 56px;
         border: none;
+        border-radius: 4px;
        
         
 }
@@ -188,7 +189,9 @@ gap: 40px;
 }
 
 
-.team {}
+.team {
+    padding: 120px 0;
+}
 
 
 .team-list {
