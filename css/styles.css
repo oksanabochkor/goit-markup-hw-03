@@ -205,14 +205,24 @@ gap: 40px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+    
         flex-basis: calc( 100%-72px )/4;
         border-radius: 0px 0px 4px 4px;
 }
 
+
 .visually-hidden {
-    display: none;
-margin-bottom: 72px;
-}
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        padding: 0;
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        overflow: hidden;
+        white-space: nowrap;
+       
+    }
 
 .team-title {
     font-weight: 500;
@@ -351,6 +361,7 @@ text-transform: capitalize;
 
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .foter-logo {
@@ -361,6 +372,8 @@ text-transform: capitalize;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color:#4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-logo-span {
