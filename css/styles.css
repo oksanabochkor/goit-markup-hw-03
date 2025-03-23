@@ -28,6 +28,12 @@ ol {
 
 img {
     display: block;
+    max-width: 100%;
+     height: auto;
+}
+
+a {
+    display: block;
 }
 
 /* header */
@@ -40,7 +46,7 @@ width: 1158px;
 
 
 .header { 
-padding: 24px 0;
+
     border-bottom: 1px solid #e7e9fc
    
 }
@@ -52,8 +58,8 @@ justify-content: space-between;
 
 
 .header-navigation { 
-    gap: 76px;
-    display: flex;
+    
+   display: flex;
     align-items: center;
 
 }
@@ -67,6 +73,10 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
      color: #4d5ae5;
+    padding: 24px 0 ;
+    padding-right: 76px;
+    
+  
     
     
  
@@ -85,12 +95,13 @@ font-weight: 700;
 .header-list {
     display: flex;
     margin-right: 0px;
-gap: 40px;
+    gap: 40px;
 }
 
 
 .header-list-item { 
-gap: 40px;
+
+
 
 }
 
@@ -100,7 +111,7 @@ gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-     
+  
         padding: 24px 0 24px;
       
         
@@ -119,18 +130,24 @@ gap: 40px;
 
 
 .adress-list {
-    display: flex;
+ display: flex; 
     gap: 40px;
+   
 }
 
+.adress-list-two {
 
+       
+}
 .adres-list-item {
    
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        gap: 24px;
+        
+        padding: 24px 0 24px;
+      
         
 }
 
@@ -315,7 +332,7 @@ text-transform: capitalize;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        margin-bottom: 72px;
+        padding-bottom: 78px;
 }
 
 .portfolio-list {
@@ -377,7 +394,7 @@ text-transform: capitalize;
         text-transform: uppercase;
         color:#4d5ae5;
         display: inline-block;
-        margin-bottom: 16px;
+        padding-bottom: 16px;
 }
 
 .footer-logo-span {
