@@ -34,15 +34,13 @@ img {
 
     .container {
 width: 1158px;
-        padding-left: 15px; 
-        padding-right: 15px;
+       padding: 0 15px;
         margin: 0 auto;
 }
 
 
 .header { 
-    padding-top: 24px;
-    padding-bottom: 24px;
+padding: 24px 0;
     border-bottom: 1px solid #e7e9fc
    
 }
@@ -69,7 +67,7 @@ font-weight: 700;
     letter-spacing: 0.03em;
     text-transform: uppercase;
      color: #4d5ae5;
-    margin-right: 76px;
+    
     
  
 }
@@ -85,9 +83,8 @@ font-weight: 700;
 }
 
 .header-list {
-    display: flex;;
-    margin-right: 0;
-    margin-right: 40px;
+    display: flex;
+    margin-right: 0px;
 gap: 40px;
 }
 
@@ -103,7 +100,7 @@ gap: 40px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding: 24px 0;
+     
         padding: 24px 0 24px;
       
         
@@ -134,6 +131,7 @@ gap: 40px;
         letter-spacing: 0.02em;
         color: #434455;
         gap: 24px;
+        
 }
 
 .adres-list-item:hover ,
@@ -159,6 +157,7 @@ gap: 40px;
         color: #fff;
         max-width: 496px;
         margin: 0 auto;
+        padding-bottom: 48px;
 }
 
 
@@ -176,7 +175,8 @@ gap: 40px;
         height: 56px;
         border: none;
         border-radius: 4px;
-       
+    text-align: center;
+    margin: 0 auto;
         
 }
 .hero-btn:hover ,
@@ -206,10 +206,9 @@ gap: 40px;
 .team-list {
     display: flex;
     gap: 24px;
-    padding-top: 142px;
-    padding-bottom: 120px;
-    flex-basis: calc( 100%-72px )/4;
-    border-radius: 0px 0px 4px 4px;
+   
+   
+   
 }
 
 
@@ -220,7 +219,8 @@ gap: 40px;
         letter-spacing: 0.02em;
         color: #2e2f42;
     
-        
+         flex-basis: calc( 100%-72px )/4;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -256,8 +256,7 @@ font-weight: 400;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        padding-top: 120px;
-    margin-bottom: 72px;
+   
 
 }
 
@@ -394,5 +393,7 @@ text-transform: capitalize;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #f4f4fd;}
+    color: #f4f4fd;
+    max-width: 264px;
+}
     
